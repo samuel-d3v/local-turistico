@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-headline: #E1624F;
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --border-primary: #D9D9D9;
+  --accent-blue: #0C51A7; 
+  --accent-purple: #591B98;
+  --accent-pink: #E5245E;
+  --accent-orange: #E95E10;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+#page {
+  margin: 88px auto;
+  width: 1120px;
+}
+
+p.headline {
+  font-weight: bold;
+  color: var(--text-headline);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 36px;
+  color: var(--text-primary);
+  margin-bottom: 44px;
+}
+
+section img, main img {
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+p#description {
+  text-align: center;
+  color: var(--text-secondary);
+
+  font-style: italic;
+}
+
+main {
+  margin-top: 40px;
+  padding-top: 64px;
+
+  border-top: solid 1px var(--border-primary);
+}
+
+main p.headline {
+  margin-bottom: 2px;
+}
+
+h2 {
+  margin-bottom: 8px;   
+  color: var(--text-primary);
+  font-size: 32px;
+}
+
+ol {
+  margin-top: 64px;
+}
+
+ol img {
+  margin-bottom: 20px;
+}
+
+.card + .card{
+  margin-top: 48px; 
+}
+
+.ol {
+  padding-left: 40px;
+}
+
+ol li {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.card li p, ul li {
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+span {
+  color: var(--text-secondary);
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 4px;
+}
+
+ul li {
+  list-style: inside;
+  font-weight: bold;
+  margin: 0;
+}
+
+li#blue span {
+  color: var(--accent-blue);
+}
+
+li#purple span {
+  color: var(--accent-purple);
+}
+
+li#pink span {
+  color: var(--accent-pink);
+}
+
+li#orange span {
+  color: var(--accent-orange);
+}
+
+#line {
+  margin: 40px auto 40px;
+  height: 1px;
+  background: var(--border-primary);
+}
+
+p#end {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: "Alice", serif;
+
+  margin-top: 58px;
+  gap: 5px;
+}
